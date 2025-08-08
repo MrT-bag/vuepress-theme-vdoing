@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Zhujk's blog",
+      title: "麦生活，跑进更好的自己",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -119,7 +119,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'MrT-bag/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -166,8 +167,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'xugaoyi', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      name: 'zhujk', // 必需
+      link: 'https://github.com/MrT-bag', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
@@ -189,7 +190,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/T-bag',
+          link: 'https://github.com/MrT-bag',
         },
         {
           iconClass: 'icon-erji',
@@ -203,14 +204,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2019, // 博客创建年份
       copyrightInfo:
-        'Zhujk | <a href="https://github.com/T-bag/" target="_blank">MIT License</a> | <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备2021018661号-3</a> | <img src="/img/beian.png" style="width: 15px; margin-bottom: -3px;" /> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=" rel="noreferrer" target="_blank">浙公网安备</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'Zhujk | <a href="https://github.com/T-bag/" target="_blank">MIT License</a> | <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备2021018661号-3</a> | <img src="/img/beian.png" style="width: 15px; margin-bottom: -3px;" /> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33042402000525" rel="noreferrer" target="_blank">浙公网安备33042402000525号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
         name: 'zhujk',
-        link: 'https://github.com/T-bag',
+        link: 'https://github.com/MrT-bag',
 
       }
     },
