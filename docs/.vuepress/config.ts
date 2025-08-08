@@ -173,7 +173,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: 'http://mai.zhujk.cn/avatar.png',
       name: 'Zhujk',
       slogan: '爱跑步的程序员',
     },
