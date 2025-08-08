@@ -18,7 +18,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "麦生活，跑进更好的自己",
+      title: "麦生活",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -204,7 +204,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2019, // 博客创建年份
       copyrightInfo:
-        'Zhujk | <a href="https://github.com/T-bag/" target="_blank">MIT License</a> | <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备2021018661号-3</a> | <img src="/img/beian.png" style="width: 15px; margin-bottom: -3px;" /> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33042402000525" rel="noreferrer" target="_blank">浙公网安备33042402000525号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'Zhujk | <a href="https://github.com/MrT-bag/" target="_blank">MIT License</a> | <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备2021018661号-3</a> | <img src="/img/beian.png" style="width: 15px; margin-bottom: -3px;" /> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33042402000525" rel="noreferrer" target="_blank">浙公网安备33042402000525号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
